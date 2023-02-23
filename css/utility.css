@@ -1,9 +1,13 @@
 img {
-  width: 100%;
-  
+  max-width: 100%;
+
 }
 .green1 {
   color: #05CC7C;
+}
+
+.blue1 {
+  color: #191935;
 }
 
 h3 {
@@ -22,6 +26,15 @@ span {
   font-weight: 800;
 }
 
+.fs20{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
 .button1 {
   background-color: #05CC7C;
   padding: 10px 18px;
@@ -38,6 +51,30 @@ span {
   width: 52px;
   height: 52px;
   margin-left: 10px;
+}
+
+.small-button {
+  background-color: #05CC7C;
+  width: 40px;
+
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.small-button1 {
+  background-color: #191935;
+  width: 40px;
+
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
 }
 
 .mt-10 {

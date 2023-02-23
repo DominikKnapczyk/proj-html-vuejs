@@ -107,3 +107,67 @@
   background-size: cover;
   border-radius: 20px;
 }
+
+/* SECTION 4 - MATCH */
+
+.match-section {
+  height: 1650px;
+  background-color: #191935;
+  display: flex;
+  justify-content: center;
+}
+
+.match-card {
+  width: 1200px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid #05CC7C;
+  background-color: #202046;
+}
+
+#match-card1 {
+  border: none;
+  background-color: #333287;
+}
+
+.squad-card {
+ width: 180px;
+ height: 90%;
+}
+
+.squad-card-top {
+  background-color: #191935;
+  padding: 10px 20px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  height: 180px;
+}
+
+.squad-card-bottom {
+  background-color: #152257;
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.vs-card {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #191935;
+}
+
+.squad-card-text {
+  width: 400px;
+}
+
+.calendar-card {
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  background-color: #191935;
+}
+
+#calendar1 {
+  background-color: #05CC7C;
+}
