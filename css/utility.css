@@ -1,3 +1,7 @@
+img {
+  width: 100%;
+  
+}
 .green1 {
   color: #05CC7C;
 }
@@ -14,6 +18,10 @@ span {
   color: white;
 }
 
+.f800 {
+  font-weight: 800;
+}
+
 .button1 {
   background-color: #05CC7C;
   padding: 10px 18px;
@@ -21,11 +29,25 @@ span {
   font-size: 14px;
   font-weight: bold;
   border: none;
+  cursor: pointer;
 }
 
 .play-button {
   border-radius: 100%;
   font-size: 18px;
   width: 52px;
+  height: 52px;
   margin-left: 10px;
+}
+
+.mt-10 {
+  margin-top: 100px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.wh300 {
+  width: 300px;
 }
