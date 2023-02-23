@@ -260,7 +260,7 @@
 /* SECTION 7 - TEAM */
 
 .team-section {
-  background-color: #202046;
+  background-color: #15152f;
   height: 600px;
 }
 
@@ -278,7 +278,6 @@
   position: relative;
 }
 
-
 .team-card-bottom {
   background-color: #152257;
   height: 100px;
@@ -295,4 +294,48 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 10px;
+}
+
+/* SECTION 8 - CLIENT */
+
+.client-section {
+  background-color: #202046;
+  height: 650px;
+  background-image: url(../img/test-grouptwo.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.client-card {
+  height: 400px;
+  margin-right: 10px;
+}
+
+#client1 {
+  background-image: url(../img/test1.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+#client2 {
+  background-image: url(../img/test2.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+#client3 {
+  background-image: url(../img/test3.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+#client4 {
+  background-image: url(../img/test4.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
