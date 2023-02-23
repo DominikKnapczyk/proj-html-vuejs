@@ -31,8 +31,8 @@ span {
   font-weight: bold;
 }
 
-.fs12 {
-  font-size: 12px;
+.br20 {
+  border-radius: 50px;
 }
 
 .button1 {
@@ -54,6 +54,17 @@ span {
   border: none;
   cursor: pointer;
   color: #05CC7C;
+}
+
+.button3  {
+  background-color: #00ae4c;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
 }
 
 .play-button {
