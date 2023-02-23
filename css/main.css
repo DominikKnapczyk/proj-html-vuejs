@@ -339,3 +339,40 @@
   background-repeat: no-repeat; 
   background-size: cover;
 }
+
+/* SECTION 9 - SHOP */
+
+.shop-section {
+  background-color: #202046;
+  height: 650px;
+  background-image: url(../img/shop-bg.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.shop-container {
+  width: 100%;
+}
+
+.shop-card {
+  height: 400px;
+  margin-right: 10px;
+}
+
+.shop-card-top {
+  height: 300px;
+  position: relative;
+  background-color: #191935;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.shop-card-bottom {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
