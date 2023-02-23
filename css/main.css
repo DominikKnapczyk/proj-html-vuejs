@@ -171,3 +171,55 @@
 #calendar1 {
   background-color: #05CC7C;
 }
+
+/* SECTION 5 - GAMES */
+
+.games-section {
+  background-color: #202046;
+  height: 600px;
+  background-image: url(../img/protfolio-vector.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.game-container {
+  width: 100%;
+}
+
+.game-card {
+  height: 400px;
+  margin-right: 10px;
+}
+
+.game-card-top {
+  height: 300px;
+  position: relative;
+}
+
+.game-card-top span {
+  background-color: #05CC7C;
+  color: #152257;
+  padding: 5px 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.game-card-bottom {
+  background-color: #152257;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.game-card-bottom1 {
+  background-color: #05CC7C;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}

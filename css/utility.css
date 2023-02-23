@@ -45,6 +45,17 @@ span {
   cursor: pointer;
 }
 
+.button2 {
+  background-color: #151632;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  color: #05CC7C;
+}
+
 .play-button {
   border-radius: 100%;
   font-size: 18px;
@@ -87,4 +98,8 @@ span {
 
 .wh300 {
   width: 300px;
+}
+
+.wh400 {
+  width: 400px;
 }
