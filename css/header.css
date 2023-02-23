@@ -15,7 +15,7 @@ nav {
   height: 105px;
 }
 
-#nav-middle li {
+li {
   list-style-type: none;
   margin: 0 15px;
   cursor: pointer;
@@ -23,7 +23,7 @@ nav {
   color: white;
 }
 
-#nav-middle li img {
+li img {
   width: 12px;
   margin-bottom: 3px;
 }

@@ -23,6 +23,8 @@
 	<link rel="stylesheet" href="./css/utility.css">
 	<link rel="stylesheet" href="./css/header.css">
 	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/footer.css">
+
 
 	<!-- VUE JS CND --> 
 	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -821,7 +823,49 @@
 	</main>
 
 	<!-- FOOTER -->
-	<footer></footer>
+	<footer>
+		<!-- FOOTER TOP -->
+		<div class="footer-container container-xxl d-flex flex-column">
+			<div class="footer-top d-flex justify-content-between align-items-center">
+				<div><img src="./img/menulogo.png" alt=""></div>
+				<div>
+					<ul class="d-flex">
+						<li v-for="(item, index) in data.menuItems" :key="index">
+							<span>{{ item.title }}</span>
+							<ul class="dropdown-menu" :class="{ show: item.showDropdown }">
+								<li v-for="(subItem, subIndex) in data.subItems" :key="subIndex">
+									<a href="#">{{ subItem.title }}</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="line1"></div>
+
+			<!-- FOOTER BOTTOM -->
+			<div class="footer-bottom d-flex justify-content-between align-items-center">
+				<div>
+					<span>Copyright &copy; RaxG | Designed by <span class="green1">NextGenerationDev</span></span>
+				</div>
+				<div class="d-flex">
+					<div class="footer-social">
+						<i class="fa-brands fa-facebook"></i>
+					</div>
+					<div class="footer-social">
+						<i class="fa-brands fa-twitter"></i>
+					</div>
+					<div class="footer-social">
+						<i class="fa-brands fa-linkedin"></i>
+					</div>
+					<div class="footer-social">
+						<i class="fa-brands fa-instagram"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </div>
 </body>
 
