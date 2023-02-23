@@ -20,6 +20,8 @@
 
 	<!-- STYLE -->
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/utility.css">
+	<link rel="stylesheet" href="./css/header.css">
 
 	<!-- VUE JS CND --> 
 	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -48,7 +50,7 @@
 				<ul class="d-flex">
 					<li v-for="(item, index) in data.menuItems" :key="index">
 						<span>{{ item.title }}</span>
-						<img v-if="item.dropdown" src="./img/image.svg" alt="dropdown" class="dropdown-toggle-icon" @click="toggleDropdown(index)">
+						<img v-if="item.dropdown" src="./img/image.svg" alt="dropdown" class="" @click="toggleDropdown(index)">
 						<ul class="dropdown-menu" :class="{ show: item.showDropdown }">
 							<li v-for="(subItem, subIndex) in data.subItems" :key="subIndex">
 								<a href="#">{{ subItem.title }}</a>
@@ -64,7 +66,34 @@
 			</div>
 		</nav>
 		<!-- JUMBOTRON -->
-		<div id="jumbotron"></div>
+		<div id="jumbotron">
+			<div class="jumbo-top">
+				<div id="jumbo-social">
+					<div class="social-container"><img src="./img/image (4).svg" alt="social"></div>
+					<div class="social-container2"><img src="./img/image (5).svg" alt="social"></div>
+					<div class="social-container"><img src="./img/image (6).svg" alt="social"></div>
+					<div class="social-container"><img src="./img/image (7).svg" alt="social"></div>
+				</div>
+				<div id="jumbo-content">
+					<h3 class="green1">WELCOME TO RAXG</h3>
+					<h1>ARE YOU READY FOR YOUR NEXT CHALLENGE?</h1>
+					<div>
+						<button class="button1">Read More &rarr;</button>
+						<button class="button1 play-button">&#9654;</button>
+					</div>
+				</div>
+			</div>
+			<div class="jumbo-bottom">
+				<div class="img-container">
+					<div class="col-2"><img src="./img/1.png" alt="squad"></div>
+					<div class="col-2"><img src="./img/2.png" alt="squad"></div>
+					<div class="col-2"><img src="./img/3.png" alt="squad"></div>
+					<div class="col-2"><img src="./img/4.png" alt="squad"></div>
+					<div class="col-2"><img src="./img/5.png" alt="squad"></div>
+					<div class="col-2"><img src="./img/6.png" alt="squad"></div>
+				</div>
+			</div>
+		</div>
 	</header>
 
 	<!-- MAIN -->

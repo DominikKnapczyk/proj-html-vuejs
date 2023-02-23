@@ -1,30 +1,3 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-
-header {
-  background-color: aqua;
-  height: 500px;
-}
-
-#nav-middle li {
-   list-style-type: none;
-   margin: 0 15px;
-   cursor: pointer;
-   font-weight: 700;
-   color: white;
-}
-
-#nav-middle li img {
-  width: 12px;
-  margin-bottom: 3px;
-}
-
-#nav-right img {
-  width: 45px;
-  background-color: white;
-  border-radius: 100%;
-  padding: 14px;
-  cursor: pointer;
-  margin-left: 5px;
-}
