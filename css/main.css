@@ -256,3 +256,43 @@
   align-items: center;
   border-radius: 20px;
 }
+
+/* SECTION 7 - TEAM */
+
+.team-section {
+  background-color: #202046;
+  height: 600px;
+}
+
+.team-container {
+  width: 100%;
+}
+
+.team-card {
+  height: 400px;
+  margin-right: 10px;
+}
+
+.team-card-top {
+  height: 300px;
+  position: relative;
+}
+
+
+.team-card-bottom {
+  background-color: #152257;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.team-card-bottom1 {
+  background-color: #05CC7C;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
