@@ -2,6 +2,18 @@
   color: #05CC7C;
 }
 
+h3 {
+  font-size: 18px;
+}
+
+h2 {
+  color: white;
+}
+
+span {
+  color: white;
+}
+
 .button1 {
   background-color: #05CC7C;
   padding: 10px 18px;

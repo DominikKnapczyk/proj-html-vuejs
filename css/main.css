@@ -1,0 +1,27 @@
+/* SECTION 1 */
+
+.company-section {
+  height: 800px;
+  background-color: #191935;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-section-left {
+  position: relative;
+}
+
+.company-section img:first-child {
+  width: 400px;
+  margin-left: 10px;
+  position: relative;
+  right: -120px;
+  top: 10px;
+}
+
+.company-section img:last-child {
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
