@@ -22,11 +22,7 @@ const app = createApp({
           { title: 'Coming Soon' },
           { title: '404' }
         ],
-        shopItems: [
-          { title: 'Product 1' },
-          { title: 'Product 2' },
-          { title: 'Product 3' }
-        ],
+        
         cartCount: 0,
         showCart: false,
       }
@@ -40,8 +36,8 @@ const app = createApp({
     },
 
     toggleCart() {
-      this.showCart = !this.showCart;
-      console.log(this.showCart);
+      this.data.showCart = !this.data.showCart;
+      console.log(this.showCart)
     },
 
   }
