@@ -25,12 +25,8 @@
 	<link rel="stylesheet" href="./css/main.css">
 	<link rel="stylesheet" href="./css/footer.css">
 
-
 	<!-- VUE JS CND --> 
 	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
-	<!-- JQUERY -->
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 	<!-- SCRIPT -->
 	<script src="./js/main.js" defer></script>
@@ -54,7 +50,7 @@
 					<li v-for="(item, index) in data.menuItems" :key="index">
 						<span>{{ item.title }}</span>
 						<img v-if="item.dropdown" src="./img/image.svg" alt="dropdown" class="" @click="toggleDropdown(index)">
-						<ul class="dropdown-menu" :class="{ show: item.showDropdown }">
+						<ul class="dropdown-menu my-dropdown" :class="{ show: item.showDropdown }">
 							<li v-for="(subItem, subIndex) in data.subItems" :key="subIndex">
 								<a href="#">{{ subItem.title }}</a>
 							</li>
@@ -64,9 +60,70 @@
 			</div>
 			
 			<div id="nav-right">
-				<img src="./img/image (1).svg" alt="search">
-				<img src="./img/image (3).svg" alt="shop">
-			</div>
+				<img class="img-right" src="./img/image (1).svg" alt="search">
+				<div class="d-inline position-relative" @click="toggleCart">
+					<img class="img-right" src="./img/image (3).svg" alt="shop">
+					<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary pt-2">{{ data.cartCount }}</span>
+					<!-- CART -->
+					<div v-show="data.showCart" class="cart">
+						<div class="cart-top">
+
+							<!-- PRODUCT 1 -->
+							<div class="content-shop">
+								<div>
+									<img src="./img/cart1.png" alt="">
+								</div>
+								<div>
+									<h3 class="text-white">Sony PS5 White</h3>
+									<span>Quality: $254</span>
+								</div>
+								<div>
+									<i class="fa fa-times green1"></i>
+								</div>
+							</div>
+
+							<!-- PRODUCT 2 -->
+							<div class="content-shop">
+								<div>
+									<img src="./img/cart2.png" alt="">
+								</div>
+								<div>
+									<h3 class="text-white">A4 Tec Mouse</h3>
+									<span>Quality: $121</span>
+								</div>
+								<div>
+									<i class="fa fa-times green1"></i>
+								</div>
+							</div>
+
+							<!-- PRODUCT 3 -->
+							<div class="content-shop">
+								<div>
+									<img src="./img/cart3.png" alt="">
+								</div>
+								<div>
+									<h3 class="text-white">Gear VR Led</h3>
+									<span>Quality: $514</span>
+								</div>
+								<div>
+									<i class="fa fa-times green1"></i>
+								</div>
+							</div>
+						</div>
+						<div class="cart-bottom mt-5">
+							<div class="d-flex justify-content-between align-items-center px-4">
+								<span>Total Order</span>
+								<span>$854.00</span>
+							</div>
+							<div class="d-flex justify-content-center align-items-center mt-5">
+								<button class="button4">CHECK OUT</button>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+			
+
 		</nav>
 		<!-- JUMBOTRON -->
 		<div id="jumbotron">

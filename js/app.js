@@ -3,6 +3,7 @@ const { createApp } = Vue;
 const app = createApp({
   data() {
     return {
+      
       data: {
         menuItems: [
           { title: 'HOME', dropdown: true, showDropdown: false },
@@ -21,12 +22,27 @@ const app = createApp({
           { title: 'Coming Soon' },
           { title: '404' }
         ],
+        shopItems: [
+          { title: 'Product 1' },
+          { title: 'Product 2' },
+          { title: 'Product 3' }
+        ],
+        cartCount: 0,
+        showCart: false,
       }
     };
   },
+
+
   methods: {
     toggleDropdown(index) {
       this.data.menuItems[index].showDropdown = !this.data.menuItems[index].showDropdown;
-    }
+    },
+
+    toggleCart() {
+      this.showCart = !this.showCart;
+      console.log(this.showCart);
+    },
+
   }
 }).mount("#app");

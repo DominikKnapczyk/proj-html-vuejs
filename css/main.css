@@ -50,7 +50,6 @@
   position: relative;
   top: 300px;
   left: 100px;
-  
 }
   
 .area-section .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -70,11 +69,23 @@
 .area-section .card1 {
   background-color: #05CC7C;
   color: #191935;
+  transition: 0.3s;
+}
+
+.area-section .card1:hover {
+  background-color: #333287;
+  color: white;
 }
 
 .area-section .card2 {
   background-color: #333287;
   color: white;
+  transition: 0.3s;
+}
+
+.area-section .card2:hover {
+  background-color: #05CC7C;
+  color: #191935;
 }
 
 .img-container-card {

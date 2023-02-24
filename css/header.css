@@ -28,7 +28,7 @@ li img {
   margin-bottom: 3px;
 }
 
-#nav-right img {
+#nav-right .img-right{
   width: 45px;
   background-color: white;
   border-radius: 100%;
@@ -43,6 +43,58 @@ li img {
 
 .dropdown-toggle-icon {
   filter: hue-rotate(90deg);
+}
+
+.my-dropdown {
+  background-color: #202046;
+  color: #00ae4c;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.my-dropdown li {
+  padding: 14px 0;
+  width: 220px;
+  border-bottom: 1px solid #767676;
+}
+
+.my-dropdown a {
+  color: #00ae4c;
+  text-decoration: none;
+}
+
+.my-dropdown a:hover {
+  color: #00ae4c;
+  text-decoration: none;
+}
+
+.my-dropdown li:last-child {
+  border-bottom: none;
+}
+
+.cart {
+  width: 350px;
+  height: 500px;
+  background-color: rgba(32, 32, 70, 0.9);
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+
+
+.content-shop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.cart-top img {
+  width: 120px;
+  height: 80px;
+  border: 1px solid #00ae4c;
 }
 
 /* JUMBOTRON */
@@ -120,3 +172,4 @@ position: relative;
 .img-container img {
   width: 80px;
 }
+
